@@ -1,0 +1,69 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - img "logo" [ref=e7]
+        - heading "Learn Automation Courses" [level=1] [ref=e8]
+      - generic:
+        - img "menu"
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - text: Learn Automation Courses
+            - img "delete" [ref=e11] [cursor=pointer]
+          - generic [ref=e12]:
+            - link "Home" [ref=e13] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e14]: Home
+            - link "Practise" [ref=e15] [cursor=pointer]:
+              - /url: /practise
+              - generic [ref=e16]: Practise
+  - generic [ref=e18]:
+    - generic [ref=e19]:
+      - img "Login"
+    - generic [ref=e20]:
+      - generic [ref=e22]:
+        - heading "Sign In" [level=2] [ref=e23]
+        - textbox "Enter Email" [ref=e24]
+        - textbox "Enter Password" [ref=e25]
+        - button "Sign in" [ref=e26] [cursor=pointer]
+        - link "New user? Signup" [ref=e27] [cursor=pointer]:
+          - /url: /signup
+      - generic [ref=e28]:
+        - heading "Connect with us" [level=2] [ref=e29]
+        - generic [ref=e30] [cursor=pointer]:
+          - link [ref=e31]:
+            - /url: https://youtube.com/MukeshOtwani
+            - img [ref=e32]
+          - link [ref=e35]:
+            - /url: https://twitter.com/MukeshOtwani
+            - img [ref=e36]
+          - link [ref=e38]:
+            - /url: https://www.linkedin.com/in/mukesh-otwani-93631b99/
+            - img [ref=e39]
+          - link [ref=e41]:
+            - /url: https://www.facebook.com/groups/256655817858291
+            - img [ref=e42]
+          - link [ref=e44]:
+            - /url: https://learn-automation/reddit
+            - img [ref=e45]
+  - generic [ref=e59]:
+    - generic [ref=e60]:
+      - heading "Learn Automation By Mukesh Otwani" [level=3] [ref=e61]
+      - heading "©2023 All rights reserved" [level=2] [ref=e62]
+    - generic [ref=e63] [cursor=pointer]:
+      - link [ref=e64]:
+        - /url: https://youtube.com/MukeshOtwani
+        - img [ref=e65]
+      - link [ref=e68]:
+        - /url: https://twitter.com/MukeshOtwani
+        - img [ref=e69]
+      - link [ref=e71]:
+        - /url: https://www.linkedin.com/in/mukesh-otwani-93631b99/
+        - img [ref=e72]
+      - link [ref=e74]:
+        - /url: https://www.facebook.com/groups/256655817858291
+        - img [ref=e75]
+```
